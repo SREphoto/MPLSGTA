@@ -95,6 +95,10 @@ Full sheet: `Docs/Animation/IDS_ANIMATION_SHEET.md`. Dims match Map / Physics.
 - No-wake putter + Carson’s tall-hull scrape; Fletcher’s crowd / Maynard’s scarce-slip
 - Raft steal shove-off; Excelsior day/night idles; Big Island tourist vs VIP + coaster vaults
 
+### Core districts (after IDS greybox)
+- District idle/choke packs: `Docs/Animation/CORE_SEAMS_CLIPS.md` — keyed to Map street seams + Kits district targets
+- North Loop loading idles, First Ave crowd, Uptown cruise, Bde Maka Ska kayak put-in / tip
+
 ## Research (Game Research & Asset Collector)
 - **IDS ref pack:** `Docs/Research/IDS_REF_PACK.md` — Crystal Court dims, skyway widths, Nicollet exit, photo/page refs, grip tags, hand-off checklist
 - Living rule: measurements before kits; hubs vs continuous playable called out early
