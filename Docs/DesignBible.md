@@ -43,3 +43,9 @@ Living locks for the Minneapolis / Minnetonka GTA-like project. **Engine: Unreal
 
 ## Repo
 `https://github.com/SREphoto/MPLSGTA`
+
+## Research column (Game Research & Asset Collector)
+
+- **IDS ref pack:** `Docs/Research/IDS_REF_PACK.md` — Crystal Court dims, skyway widths, Nicollet exit, photo/page refs, grip tags, hand-off checklist
+- Living rule: measurements before kits; hubs vs continuous playable called out early
+- Next packs (parked): Minnetonka docks/launches/mansions, Excelsior Water St, Big Island 1906 park reboot, no-wake/channels
