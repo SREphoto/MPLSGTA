@@ -6,10 +6,25 @@ Living locks for the Minneapolis / Minnetonka GTA-like project. **Engine: Unreal
 - **Stylized-realism** (GTA-like reads), not photoreal
 - Modular kits; chase silhouettes over PBR flex
 
-## Playable core vs hubs
+## Map (Map Expert)
+### Playable core vs hubs
 | Continuous playable | Travel hubs (mission load / fast-travel) |
 |---------------------|------------------------------------------|
 | Downtown IDS/skyways → North Loop → First Ave / stadiums → Uptown / Bde Maka Ska | Mall of America, MSP, Minnetonka, St. Paul |
+
+Hard edges on the core: **Mississippi** + **I-94**. Dense ~4–6 mi² slice, not sparse freeway grid.
+
+### IDS vertical slice graph (NOW)
+`Crystal Court atrium → 1–2 skyways → Nicollet plaza` — see `Docs/Map/IDS_GREYBOX_DIM_SHEET.md` for cm placements.
+
+### Minnetonka hub (parked)
+- **Story anchors:** Excelsior, Fletcher’s, Maynard’s, Big Island
+- **Launches:** Grays Bay (trailer-in) + one west-bay ramp
+- **Mansions:** 5 sparse estate nodes (private dock + boathouse)
+- **Channels / no-wake:** buoy corridors; ≤5 mph near shore/docks; Carson’s ~5'8" tall-hull fail; Narrows ~18'3" clear
+- **Excelsior:** Water Street night cruise (Licks, Dock Cinema, Pizza Hut corner) feeds ferry to Big Island
+- **Party pipeline:** Fletcher’s Wharf staging → Cruiser’s Cove raft-up → island amusement reboot
+- **Bde Maka Ska (in core):** paddle/sail only — soft beach put-ins, no motor docks
 
 ## IDS vertical slice (NOW)
 3-node graph: **Crystal Court atrium → 1–2 skyways → Nicollet plaza exit**
