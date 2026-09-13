@@ -46,6 +46,22 @@ Hard edges on the core: **Mississippi** + **I-94**. Dense ~4–6 mi² slice, not
 - Fletcher’s → Cruiser’s Cove raft-up party pipeline
 - Big Island amusement reboot (1906–11 bones); Excelsior Water St night strip
 
+
+## Kits (3D Designer)
+Full checklist: `Docs/Kits/IDS_KIT_GREYBOX.md`. Dims match Map greybox sheet.
+
+### IDS slice (NOW)
+| Module | Greybox size (cm) |
+|--------|-------------------|
+| Crystal Court atrium shell | floor 4267×4267, H 3688; center (0,0,1844) |
+| Skyway corridor ×2 | clear 549 W; exterior 670×366; len 1219; deck Z=0 |
+| Glass + rail | ~80% glass; rail H 100; fall drop 503 |
+| Nicollet plaza exit | slab 1829×1219×30 at Z=−503; apron ~2438 |
+| Sidewalk/street stubs | plaza exit tiles only |
+
+### Parked Minnetonka / water (after IDS)
+Paddle vs planing/jetski chassis; 18 in float dock vs trailer ramp; Fletcher’s dense slips / Maynard’s apron; mansion estate+boathouse; Excelsior neon facades; Big Island pier/tower/coaster; raft cluster; buoy + bridge gates.
+
 ## Columns (owners)
 | Column | Owner |
 |--------|-------|
