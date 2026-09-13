@@ -2,6 +2,8 @@
 
 Create this level in the Unreal Editor (Content Browser → Maps → New Level). Name it `L_IDS_Slice`.
 
+Animation binds: `Docs/Animation/IDS_ANIMATION_SHEET.md`.
+
 ## Place these actors
 
 1. **Greybox geometry** — atrium floor + 8-story shell, two skyway boxes (18 ft clear / ~22 ft exterior), Nicollet plaza slab.
@@ -11,3 +13,5 @@ Create this level in the Unreal Editor (Content Browser → Maps → New Level).
 5. Player start + confirm `AMPLSGameMode` / `AMPLSCharacter`.
 
 Project Game Default Map is already pointed at `/Game/Maps/L_IDS_Slice` in `Config/DefaultEngine.ini`.
+
+6. **Animation greybox** — `ABP_MPLSCharacter` loco blends by grip zone; vault success/fail montages on `AVaultVolume`; SoftSteal idle in court.

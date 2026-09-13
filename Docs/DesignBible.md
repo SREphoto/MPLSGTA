@@ -31,6 +31,24 @@ Living locks for the Minneapolis / Minnetonka GTA-like project. **Engine: Unreal
 - Fletcher’s → Cruiser’s Cove raft-up party pipeline
 - Big Island amusement reboot (1906–11 bones); Excelsior Water St night strip
 
+
+## Animation (Animation)
+Full sheet: `Docs/Animation/IDS_ANIMATION_SHEET.md`. Dims match Map / Physics.
+
+### IDS slice (NOW)
+| Lock | Value |
+|------|-------|
+| Loco | `AtriumStroll` → `SkywayShuffle` → `StreetWalkRun` (grip 0.55 / 0.75 / 1.0) |
+| Vault | Success at rail **100 cm**; fail fall **503 cm** — no soft float |
+| Overlays | Crystal Court `SoftSteal_Idle`; optional atrium loiter stubs |
+| Root motion | Cap to **549 cm** skyway clear; vault clears 100 cm rail |
+| Vehicles | Enter/exit stubs for Compact/Sedan/SUV/Sport (timing only) |
+
+### Parked Minnetonka / water (after IDS)
+- Bde Maka Ska paddle tip/recover (no motors); docks 18 in step; launches = ramp plant
+- No-wake putter + Carson’s tall-hull scrape; Fletcher’s crowd / Maynard’s scarce-slip
+- Raft steal shove-off; Excelsior day/night idles; Big Island tourist vs VIP + coaster vaults
+
 ## Columns (owners)
 | Column | Owner |
 |--------|-------|
