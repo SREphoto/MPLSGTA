@@ -31,6 +31,24 @@ Living locks for the Minneapolis / Minnetonka GTA-like project. **Engine: Unreal
 - Fletcher’s → Cruiser’s Cove raft-up party pipeline
 - Big Island amusement reboot (1906–11 bones); Excelsior Water St night strip
 
+
+## Physics (Physics Expert)
+Full numbers: `Docs/Physics/IDS_PHYSICS_NUMBERS.md`. Dims match Map greybox sheet.
+
+### IDS slice (NOW)
+| Lock | Value |
+|------|-------|
+| Grip | `AtriumPolished` 0.55 → `SkywayDeck` 0.75 → `StreetAsphalt` 1.0 (shared foot + vehicle) |
+| Vault | `RailHeightCm=100`; fail `FallDropCm=503`; `FailDamage=100` — no soft float |
+| Vehicles | Arcade-plus classes (Compact/Sedan/SUV/Sport); effective grip = BaseGrip × surface multiplier |
+
+Wet / Ice / Snow multipliers are hooked in `EGripSurface` but not placed in the IDS greybox yet.
+
+### Parked Minnetonka / water (after IDS)
+- Bde Maka Ska paddle-only + tip; docks 18 in freeboard; launches = ramp
+- No-wake ≤5 mph force-deplane; Carson’s ~5'8" tall-hull fail; Narrows ~18'3" clear
+- Raft soft-snap + shove-off steal; Fletcher’s wide cone / Maynard’s scarce-slip magnet
+
 ## Columns (owners)
 | Column | Owner |
 |--------|-------|
