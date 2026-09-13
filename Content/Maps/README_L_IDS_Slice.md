@@ -21,3 +21,12 @@ Origin = Crystal Court atrium floor center. **+X toward Nicollet.** Street Z = *
 4. Player start in atrium + confirm `AMPLSGameMode` / `AMPLSCharacter`.
 
 Project Game Default Map is already pointed at `/Game/Maps/L_IDS_Slice` in `Config/DefaultEngine.ini`.
+
+## Kits to place (3D Designer)
+
+See `Docs/Kits/IDS_KIT_GREYBOX.md`. Same cm sizes as greybox geometry above:
+
+1. **Atrium shell** — 4267 × 4267 × 3688 (box proxy OK; later glass canopy)
+2. **Skyway modules ×2** — 1219 × 670 × 366 exterior, 549 clear; reuse one modular piece
+3. **Glass + rail piece** — rail H 100 cm on corridor edges (vault/fail bind)
+4. **Nicollet plaza** — 1829 × 1219 × 30 at Z=−503 + sidewalk/street stubs
