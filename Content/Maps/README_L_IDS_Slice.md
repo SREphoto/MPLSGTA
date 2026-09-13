@@ -2,7 +2,11 @@
 
 Create this level in the Unreal Editor (Content Browser → Maps → New Level). Name it `L_IDS_Slice`.
 
-Full dims: `Docs/Map/IDS_GREYBOX_DIM_SHEET.md`.
+Full dims: `Docs/Map/IDS_GREYBOX_DIM_SHEET.md`  
+Physics: `Docs/Physics/IDS_PHYSICS_NUMBERS.md`  
+Animation: `Docs/Animation/IDS_ANIMATION_SHEET.md`  
+Kits: `Docs/Kits/IDS_KIT_GREYBOX.md`  
+Research: `Docs/Research/IDS_REF_PACK.md`
 
 ## Greybox geometry (cm)
 
@@ -15,12 +19,11 @@ Origin = Crystal Court atrium floor center. **+X toward Nicollet.** Street Z = *
 
 ## Place these actors
 
-1. `AGripZoneVolume` ×3 — `AtriumPolished` (court floor), `SkywayDeck` (both corridors), `StreetAsphalt` (plaza/street).
+1. `AGripZoneVolume` ×3 — `AtriumPolished` (0.55), `SkywayDeck` (0.75), `StreetAsphalt` (1.0).
 2. `AHeatZoneVolume` ×3 — SoftTheft (court), Skyway (corridors), Street (Nicollet).
-3. `AVaultVolume` on skyway railing edge — `RailHeightCm=100`, `FallDropCm=503`.
+3. `AVaultVolume` on skyway railing edge — `RailHeightCm=100`, `FallDropCm=503`, `FailDamage=100`.
 4. Player start in atrium + confirm `AMPLSGameMode` / `AMPLSCharacter`.
-
-Project Game Default Map is already pointed at `/Game/Maps/L_IDS_Slice` in `Config/DefaultEngine.ini`.
+5. **Animation greybox** — `ABP_MPLSCharacter` loco blends by grip zone; vault success/fail montages on `AVaultVolume`; SoftSteal idle in court.
 
 ## Kits to place (3D Designer)
 
@@ -30,3 +33,5 @@ See `Docs/Kits/IDS_KIT_GREYBOX.md`. Same cm sizes as greybox geometry above:
 2. **Skyway modules ×2** — 1219 × 670 × 366 exterior, 549 clear; reuse one modular piece
 3. **Glass + rail piece** — rail H 100 cm on corridor edges (vault/fail bind)
 4. **Nicollet plaza** — 1829 × 1219 × 30 at Z=−503 + sidewalk/street stubs
+
+Project Game Default Map is already pointed at `/Game/Maps/L_IDS_Slice` in `Config/DefaultEngine.ini`.

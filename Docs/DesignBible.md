@@ -46,7 +46,6 @@ Hard edges on the core: **Mississippi** + **I-94**. Dense ~4–6 mi² slice, not
 - Fletcher’s → Cruiser’s Cove raft-up party pipeline
 - Big Island amusement reboot (1906–11 bones); Excelsior Water St night strip
 
-
 ## Kits (3D Designer)
 Full checklist: `Docs/Kits/IDS_KIT_GREYBOX.md`. Dims match Map greybox sheet.
 
@@ -61,6 +60,50 @@ Full checklist: `Docs/Kits/IDS_KIT_GREYBOX.md`. Dims match Map greybox sheet.
 
 ### Parked Minnetonka / water (after IDS)
 Paddle vs planing/jetski chassis; 18 in float dock vs trailer ramp; Fletcher’s dense slips / Maynard’s apron; mansion estate+boathouse; Excelsior neon facades; Big Island pier/tower/coaster; raft cluster; buoy + bridge gates.
+
+## Physics (Physics Expert)
+Full numbers: `Docs/Physics/IDS_PHYSICS_NUMBERS.md`. Dims match Map greybox sheet.
+
+### IDS slice (NOW)
+| Lock | Value |
+|------|-------|
+| Grip | `AtriumPolished` 0.55 → `SkywayDeck` 0.75 → `StreetAsphalt` 1.0 (shared foot + vehicle) |
+| Vault | `RailHeightCm=100`; fail `FallDropCm=503`; `FailDamage=100` — no soft float |
+| Vehicles | Arcade-plus classes (Compact/Sedan/SUV/Sport); effective grip = BaseGrip × surface multiplier |
+
+Wet / Ice / Snow multipliers are hooked in `EGripSurface` but not placed in the IDS greybox yet.
+
+### Parked Minnetonka / water (after IDS)
+- Bde Maka Ska paddle-only + tip; docks 18 in freeboard; launches = ramp
+- No-wake ≤5 mph force-deplane; Carson’s ~5'8" tall-hull fail; Narrows ~18'3" clear
+- Raft soft-snap + shove-off steal; Fletcher’s wide cone / Maynard’s scarce-slip magnet
+
+## Animation (Animation)
+Full sheet: `Docs/Animation/IDS_ANIMATION_SHEET.md`. Dims match Map / Physics.
+
+### IDS slice (NOW)
+| Lock | Value |
+|------|-------|
+| Loco | `AtriumStroll` → `SkywayShuffle` → `StreetWalkRun` (grip 0.55 / 0.75 / 1.0) |
+| Vault | Success at rail **100 cm**; fail fall **503 cm** — no soft float |
+| Overlays | Crystal Court `SoftSteal_Idle`; optional atrium loiter stubs |
+| Root motion | Cap to **549 cm** skyway clear; vault clears 100 cm rail |
+| Vehicles | Enter/exit stubs for Compact/Sedan/SUV/Sport (timing only) |
+
+### Parked Minnetonka / water (after IDS)
+- Bde Maka Ska paddle tip/recover (no motors); docks 18 in step; launches = ramp plant
+- No-wake putter + Carson’s tall-hull scrape; Fletcher’s crowd / Maynard’s scarce-slip
+- Raft steal shove-off; Excelsior day/night idles; Big Island tourist vs VIP + coaster vaults
+
+## Research (Game Research & Asset Collector)
+- **IDS ref pack:** `Docs/Research/IDS_REF_PACK.md` — Crystal Court dims, skyway widths, Nicollet exit, photo/page refs, grip tags, hand-off checklist
+- Living rule: measurements before kits; hubs vs continuous playable called out early
+- Next packs (parked): Minnetonka docks/launches/mansions, Excelsior Water St, Big Island 1906 park reboot, no-wake/channels
+
+## Gameplay / Engine (Gameplay And Game Engine Expert)
+- Wanted/heat: SoftTheft (court) → Skyway heat dump → Street wanted (Nicollet)
+- Arcade-plus vehicles + grip multipliers bound to physics numbers above
+- C++ stubs in `Source/MPLSGTA/` — defaults match Physics sheet (0.55 / 0.75 / 1.0, rail 100 / fall 503)
 
 ## Columns (owners)
 | Column | Owner |
