@@ -105,6 +105,10 @@ Full sheet: `Docs/Animation/IDS_ANIMATION_SHEET.md`. Dims match Map / Physics.
 - Arcade-plus vehicles + grip multipliers bound to physics numbers above
 - C++ stubs in `Source/MPLSGTA/` — defaults match Physics sheet (0.55 / 0.75 / 1.0, rail 100 / fall 503)
 
+
+## Kits — core districts (parallel)
+While IDS greybox is in Editor: warehouse / Uptown / stadium / shore kit families live in `Docs/Kits/CORE_DISTRICT_KIT_TARGETS.md`, keyed to Map `CORE_STREET_SEAMS.md`.
+
 ## Columns (owners)
 | Column | Owner |
 |--------|-------|
