@@ -1,6 +1,6 @@
 # MPLSGTA Design Bible
 
-Living locks for the Minneapolis / Minnetonka GTA-like project. **Engine: Unreal Engine 5. First build target: IDS vertical slice.**
+Living locks for the Minneapolis / Minnetonka GTA-like project. **Engine: Unity 6.3 LTS (switched from Unreal on 2026-09-30, project in `Unity/MPLSGTA`). Earlier lock was Unreal Engine 5. First build target: IDS vertical slice.**
 
 ## Art fidelity
 - **Stylized-realism** (GTA-like reads), not photoreal
