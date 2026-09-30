@@ -82,3 +82,18 @@ Chase reads beat PBR flex: skyway glass must break LOS; rail must read for vault
 - **Excelsior:** Water St facade run + Licks / Dock Cinema / Pizza Hut neon shells
 - **Big Island:** ferry pier, Seville-style tower, coaster scaffold (parkour), VIP/casino shell
 - **Channel props:** red/green buoys; Carson’s ~5'8" / Narrows ~18'3" bridge gates; raft-up cluster props
+## Unity setup (engine switch)
+The IDS slice now runs in Unity 6.3 LTS, Built-in renderer, at `Unity/MPLSGTA`. Sizes above stay the source of truth; Unity reads them from `Assets/MPLSGTA/Scripts/IdsNumbers.cs`.
+
+Unity works in meters with Y up. Divide cm by 100, and sheet Z (up) becomes Unity Y.
+
+| Module | Unity size (m) | Unity position |
+|--------|----------------|----------------|
+| Crystal Court atrium shell | 42.67 × 36.88 × 42.67 (X × Y × Z) | floor at Y 0 |
+| Skyway module ×2 | 12.19 long, 6.70 wide, 3.66 tall; 5.49 clear | X 21.34 to 33.53, then 33.53 to 45.72; deck Y 0 |
+| Glass + rail | rail 1.00 tall; fall 5.03 | skyway edges |
+| Nicollet plaza | 18.29 × 0.30 × 12.19 | top at Y −5.03 |
+
+Build it from the menu MPLSGTA > Build IDS Slice Scene. Pass one is plain cubes from that menu; kit meshes replace them later at the same outer sizes.
+
+Planned change from Map: Crystal Court floor moves down to street level, with a stair or escalator up to the skyway floor. Atrium kit stays the same size and just drops 5.03 m.
