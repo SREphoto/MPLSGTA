@@ -1,6 +1,6 @@
 # MPLSGTA
 
-GTA-like open-world fantasy set in Minneapolis / Minnetonka. **Engine: Unreal Engine 5.4+.**
+GTA-like open-world fantasy set in Minneapolis / Minnetonka. **Engine: Unity 6.3 LTS.** The Unity project lives in `Unity/MPLSGTA` (see its README). The Unreal 5.4 scaffold below is kept for reference only.
 
 ## What this repo proves first (IDS vertical slice)
 
